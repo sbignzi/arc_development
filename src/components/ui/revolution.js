@@ -378,7 +378,7 @@ export default function Revolution(){
                      
                 </Grid>
                 <Grid item lg style={{alignSelf:'center', marginLeft:matchesMD ?0:'10em'}}>
-                    <img alt='consultation' src={consultation}/>
+                    <img alt='consultation' src={consultation} style={{width:'100%'}}/>
                 </Grid>
 
                 </Grid>
@@ -403,8 +403,8 @@ export default function Revolution(){
                     </Typography>
                      
                 </Grid>
-                <Grid item lg style={{alignSelf:'center', marginLeft:matchesMD ?0:'10em'}}>
-                    <img alt='mockup' src={mockup}/>
+                <Grid item lg style={{alignSelf:'center', marginLeft:matchesMD ?0:'10em' }}>
+                    <img alt='mockup' src={mockup} style={{width:'100%'}}/>
                 </Grid>
 
                 </Grid>
@@ -429,7 +429,7 @@ export default function Revolution(){
                      
                 </Grid>
                 <Grid item lg style={{alignSelf:'center',  marginLeft:matchesMD ?0:'10em'}}>
-                    <img alt='review' src={review}/>
+                    <img alt='review' src={review} style={{width:'100%'}}/>
                 </Grid>
 
                 </Grid>
@@ -479,7 +479,7 @@ export default function Revolution(){
                      
                 </Grid>
                 <Grid item lg style={{alignSelf:'center', marginLeft:matchesMD ?0:'10em'}}>
-                    <img alt='review' src={review}/>
+                    <img alt='review' src={review} style={{width:'100%'}}/>
                 </Grid>
                 </Grid>
                 {/*  */}
@@ -528,7 +528,7 @@ export default function Revolution(){
                      
                 </Grid>
                 <Grid item lg style={{alignSelf:'center',  marginLeft:matchesMD ?0:'10em'}}>
-                    <img alt='launch' src={launch}/>
+                    <img alt='launch' src={launch} style={{width:'100%'}}/>
                 </Grid>
 
                 </Grid>
@@ -553,7 +553,7 @@ export default function Revolution(){
                      
                 </Grid>
                 <Grid item lg style={{alignSelf:'center',  marginLeft:matchesMD ?0:'10em'}}>
-                    <img alt='maintain' src={maintain}/>
+                    <img alt='maintain' src={maintain} style={{width:'100%'}}/>
                 </Grid>
 
                 </Grid>
