@@ -1,0 +1,6 @@
+# Ignore 
+node_modules/
+# But not these files...
+!.gitignore
+!README.md
+!setup.py
