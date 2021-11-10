@@ -345,19 +345,19 @@ export default function MobileApps(){
                     <Grid sm item container direction='column' style={{textAlign:'center'}}>
                         <Typography className={classes.TypographyIcon} >Extend Functionality</Typography>
                         <IconButton>
-                           <img alt='swiss' src={swiss} />
+                           <img alt='swiss' src={swiss} style={{maxWidth:matchesSM ?'7em':matchesMD ? '20em':'40em'}}/>
                         </IconButton>
                     </Grid>
                     <Grid sm item conatainer direction='column' style={{textAlign:'center', marginTop:matchesMD ?'15em':0, marginBottom:matchesMD ?'15em':0}}>
                         <Typography className={classes.TypographyIcon} >Extend Access</Typography>
                         <IconButton>
-                           <img alt='access' src={access} />
+                           <img alt='access' src={access} style={{maxWidth:matchesSM ?'12em':matchesMD ? '20em':'40em'}}/>
                         </IconButton>
                     </Grid>
                     <Grid sm item conatainer direction='column' style={{textAlign:'center'}}>
                         <Typography className={classes.TypographyIcon} >Increase Engagement</Typography>
                         <IconButton>
-                           <img alt='engagement' src={engagement} />
+                           <img alt='engagement' src={engagement} style={{maxWidth:matchesSM ?'7em':matchesMD ? '20em':'40em'}}/>
                         </IconButton>
                     </Grid>
                 </Grid>  

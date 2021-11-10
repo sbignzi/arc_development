@@ -355,7 +355,7 @@ export default function CustomSoftware(){
                 {/* row 3 animation 1 */} 
                 <Grid item  container direction={matchesMD ?'column':'row'} style={{marginTop:'20em'}}>
                 {/* <Grid item  container direction='row'> */}
-                   <Grid item container sm justifyContent='center'>
+                   <Grid item container sm justifyContent='center' style={{marginBottom:'15em'}}>
                     <Grid item container direction='column' style={{maxWidth:'30em'}} sm>
                         <Typography className={classes.Title}>Gigital Documents & Data</Typography>
                         <Typography className={classes.paragraphContent} paragraph>
@@ -391,7 +391,7 @@ export default function CustomSoftware(){
                 {/* row 4  */} 
                 <Grid item  container direction='column' alignItems='center' style={{marginTop:'20em', marginBottom:'20em'}}>
                     <IconButton>
-                    <img alt='Roots' src={roots} height='450em' width='450em' />
+                    <img alt='Roots' src={roots} height={matchesSM ?'300em':'450em'} width={matchesSM ?'300em':'450em'} />
                     </IconButton>
 
                     <Grid item container direction='column' style={{maxWidth:'30em'}} sm>
@@ -410,7 +410,7 @@ export default function CustomSoftware(){
                 {/* row 5 animation 2 */} 
                 <Grid item  container direction={matchesMD ?'column':'row'} style={{marginBottom:'15em'}}>
                 {/* <Grid item  container direction='row'> */}
-                   <Grid item container sm justifyContent='center'>
+                   <Grid item container sm justifyContent='center' style={{marginBottom:'15em'}}>
                     <Grid item container direction='column' style={{maxWidth:'30em'}} sm>
                         <Typography className={classes.Title}>Automation</Typography>
                         <Typography className={classes.paragraphContent} paragraph>
