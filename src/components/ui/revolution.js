@@ -275,7 +275,7 @@ export default function Revolution(){
     // const matchesMD =  useMediaQuery('(max-width:1365px)');;
     return (
 
-        <React.Fragment>
+        
             <Grid container direction='column'>
                 <Grid item>
                     <Typography className={classes.Typography}>
@@ -343,11 +343,13 @@ export default function Revolution(){
                         Each project is step towards that goal.
                     </Typography>
                     </Grid>
+                    
                     <Grid item container justifyContent={matchesMD ? 'center':'flex-end'} xs>
-                        <IconButton>
-                        <Lottie  options={technologyOptions} height={"100%"} width={"100%"} />
-                        </IconButton>
+                       
+                        <Lottie  options={technologyOptions} height={matchesSM ?'50%':"100%"} width={matchesSM ?'50%':"100%"} style={{ margin:matchesSM ? 0:undefined}} />
+                        
                     </Grid>
+                    
                 </Grid>
 
                 <Grid item>
@@ -588,6 +590,6 @@ export default function Revolution(){
             
             
              
-            </React.Fragment>
+            
     )
 }
