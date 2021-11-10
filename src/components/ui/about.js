@@ -241,8 +241,8 @@ export default function LandinPage(){
         <Grid item container direction={matchesMD ?'column':'row'} alignItems={matchesMD ?'center':undefined} style={{marginBottom:'5rem'}}>
         <Grid item>   
         <Grid item sm container direction='column' style={{marginLeft:matchesSM ?0:'2.5rem'}}>
-        <Grid item>
-        <img alt='yearbook' src={yearbook} />
+        <Grid item style={{maxWidth:matchesMD ?'50%':'100%'}}>
+        <img alt='yearbook' src={yearbook} style={{maxWidth:matchesMD ?'20em':'100%'}}/>
         </Grid>
         <Typography style={{textAlign:matchesMD ?'center':undefined}}>
             A page from my Sophomore yearbook
@@ -264,8 +264,8 @@ export default function LandinPage(){
        
         <Grid item style={{marginRight:matchesSM ?0:'2.5rem'}}>
         <Grid item sm container direction='column'>
-        <Grid item>
-        <img alt='puppy' src={puppy} />
+        <Grid item style={{maxWidth:matchesMD ?'50%':'100%'}}>
+        <img alt='puppy' src={puppy} style={{maxWidth:matchesMD ?'20em':'100%'}}/>
         </Grid>
         <Typography style={{textAlign:matchesMD ?'center':undefined}}>
             A page from my Sophomore yearbook
