@@ -314,7 +314,7 @@ export default function LandinPage(){
             {/* -----Hero Bock----- */}
         <Grid container direction={matchesMD ?'column':'row'} >
         {/* <Grid container direction='column' > */}
-            <Grid item container alignItems='center' direction='column' sm={matchesMD ?12:3}>   
+            <Grid item container alignItems='center' direction='column' sm={matchesMD ?12:4}>   
             {/* <Grid item container alignItems='center' direction='column' sm>    */}
                 <Typography className={classes.Typography}>
                     Contact Us
@@ -339,16 +339,16 @@ export default function LandinPage(){
                 </Grid>  
                 </Grid>  
                 <Grid item style={{marginBottom:'0.5em'}} >
-                    <TextField label='Name' id='name' className={classes.test3}></TextField>
+                    <TextField label='Name' id='name' className={classes.test3} style={{width:'15em'}}></TextField>
                 </Grid>
                 <Grid item style={{marginBottom:'0.5em'}}>
-                    <TextField label='Email' id='email' className={classes.tes2}></TextField>
+                    <TextField label='Email' id='email' className={classes.tes2} style={{width:'15em'}}></TextField>
                 </Grid>
                 <Grid item style={{marginBottom:'0.5em'}}>
-                    <TextField label='Phone' id='phone'></TextField>
+                    <TextField label='Phone' id='phone' style={{width:'15em'}}></TextField>
                 </Grid>
                 <Grid  item style={{marginBottom:'2rem'}} className={classes.message}>
-                    <TextField InputProps={{disableUnderline:true}} multiline rows={10}  id='message'></TextField>
+                    <TextField InputProps={{disableUnderline:true}} multiline rows={10}  id='message' style={{width:'15em'}}></TextField>
                 </Grid>
 
                 <Grid item style={{marginBottom:'5rem'}}>
@@ -366,7 +366,7 @@ export default function LandinPage(){
             
 
 
-            <Grid item sm={matchesMD ?12:9}>
+            <Grid item sm={matchesMD ?12:8}>
             {/* <Grid item sm> */}
                 <Grid item container alignItems='center' style={{height:'60em', backgroundImage:matchesSM?`url(${backgroundMobile})`:`url(${background})`,backgroundPosition:'center', backgroundSize:'cover', backgroundRepeat:'no-repeat'}} >
                     <Grid item container direction={matchesMD ? 'column':'row'} alignItems={matchesMD ?'center':undefined} >
