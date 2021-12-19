@@ -209,7 +209,10 @@ const useStyles = makeStyles(theme =>({
 
     icon:{
 
-        marginLeft:'2rem'
+        marginLeft:'2rem',
+        [theme.breakpoints.down('md')]:{
+            marginLeft:0,
+        }
     },
 
     serviceLeft:{

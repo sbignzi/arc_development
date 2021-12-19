@@ -173,8 +173,17 @@ const useStyle = makeStyles(theme=>({
         backgroundColor:theme.palette.common.orange,
         fontFamily:"Pacifico !important",
         color:'white',
-        pading:0
+        pading:0,
+        '&.MuiTypography-body1':{
+        fontFamily:'Pacifico'
+        },
+        '&..css-10hburv-MuiTypography-root':{
+        fontFamily:'Pacifico'
+        },
+
+      
     },
+
 
 
     appbar:{
