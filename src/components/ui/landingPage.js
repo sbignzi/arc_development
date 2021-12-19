@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme =>({
         marginTop:'2rem',
         marginBottom:'1rem',
         // maxWidth:'600px',
-        minWidth:'342px',
+        minWidth:'200px',
         [theme.breakpoints.down('md')]:{
             fontSize:'2rem',
         },
